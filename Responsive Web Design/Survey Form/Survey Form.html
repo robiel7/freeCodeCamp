@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <h1 id="title">Psychopathy Test</h1>
+    <p id="description">This quiz is designed to help give you some idea about whether or not you may be a psychopath or sociopath</p>
+  <form id="survey-form" action="#" methos ="POST">
+    
+      <label for="name" id="name-label">Name</label><br>
+      <input type="text" id="name" placeholder=" Enter your name" required> 
+      
+      <br><br>
+      <label for="email" id="email-label">Email</label><br>
+      <input type="email" id="email" placeholder=" Enter your Email" required>
+      
+      <br><br>
+      <label for="number" id="number-label">Age (optonal)</label><br>
+      <input type="number" id="number" placeholder=" Age" min="1" max="120">
+      <br> <br>
+      <label for="dropdown" id="dropdown-label">If something goes wrong or turns out badly, it’s not my fault.</label><br>
+      <select id="dropdown">
+        <option value="Not me">Not me </option>
+        <option value="sometimes">This describes me somewhat </option>
+        <option value="definitely me">This is definitely me </option>
+      </select>
+  
+      <br> <br>
+      <label for="care" id="care-label"> I do whatever I feel like doing, and I don’t care what others think — or even if it’s illegal.</label><br>
+      <input type="radio" name="care" value="Not me">Not me<br>
+      <input type="radio" name="care" value="sometimes">This describes me somewhat<br>
+      <input type="radio" name="care" value="definitely me">This is definitely me<br>
+  
+      <br> <br>
+      <label for="feel" id="feel-label">  I never feel____about something I’ve said or done.</label><br>
+      <input type="checkbox" name="feel" value="remorse">remorse<br>
+      <input type="checkbox" name="feel" value="shame">shame<br>
+      <input type="checkbox" name="feel" value="guilt">guilt<br>
+      <input type="checkbox" name="feel" value="faultless">faultless<br>
+  
+      <br><br>
+      <label for="responsibilities" id="responsibilities-label">what would you do if someone ask you to kill someone you know <br> "not family member" for 1 million.</label><br>
+      <textarea name="responsibilities" id="responsibilities" cols="60" rows="10">
+        Enter your response ...
+      </textarea>
+  
+      <br> <br>
+      <input type="submit" id="submit" value="Score my Psyshopathy Quiz">
+    </form>
+  </body>
+  </html>

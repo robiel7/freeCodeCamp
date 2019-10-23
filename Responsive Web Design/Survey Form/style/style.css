@@ -1,0 +1,50 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-image: url(../img/Psychopath-Norman-Bates-520.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+
+}
+form{
+  background-color: rgba(1, 1, 2, 0.5);
+  margin: auto ;
+  padding: 15px;
+  padding-left: 15px;
+  width: 78%;
+  color: white;
+}
+#title{
+  text-align: center;
+}
+#description{
+  text-align: center;
+  font-style: italic;
+  font-size: 110%;
+}
+input, label, select, textarea{
+  margin-left: 25px;
+  margin-top: 5px;
+  font-size: 110%;
+}
+input{
+  padding :10px 60% 5px 10px;
+}
+#number{
+  padding :10px 79% 5px 10px;
+}
+textarea{
+  padding :10px 10% 5px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select{
+  padding :10px 57% 5px 10px;
+}
+label{
+  margin: 25px;
+  text-align: justify;
+}
+#submit{
+  text-align: center;
+}
