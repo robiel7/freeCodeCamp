@@ -1,0 +1,38 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: azure;
+  text-align: justify;
+}
+
+#title{
+  text-align:center;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#img-div{
+  background-color: beige;
+  text-align: center;
+  padding-top: 5%;
+  margin: 20px auto;
+  width:100%;
+  
+}
+#image {
+display: block;
+max-width: 100%;
+height: auto;
+margin:0 auto;
+
+}
+#img-caption{
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+p{
+  margin: 25px;
+  font-size: 105%;
+}
