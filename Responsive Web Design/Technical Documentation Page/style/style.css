@@ -21,6 +21,7 @@ body{
 
 header{
   font-size: 200%;
+  margin-left: -8px;
 }
 
 #navbar header{
